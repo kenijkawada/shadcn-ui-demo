@@ -4,7 +4,11 @@ import { AlertDialogDemo } from "@/components/AlertDialogDemo";
 import { AspectRatioDemo } from "@/components/AspectRatioDemo";
 import { AvatarDemo } from "@/components/AvatarDemo";
 import { CarouselDemo } from "@/components/CarouselDemo";
+import { DataTableDemo } from "@/components/DataTableDemo";
 import { DrawerDemo } from "@/components/DrawerDemo";
+import { PaginationDemo } from "@/components/PaginationDemo";
+import { ProfileFormDemo } from "@/components/ProfileFormDemo";
+import { SkeletonDemo } from "@/components/SkeletonDemo";
 import { TypographyDemo } from "@/components/TypographyDemo";
 import { TypographyH1 } from "@/components/TypographyH1";
 import { TypographyH2 } from "@/components/TypographyH2";
@@ -46,6 +50,18 @@ export default function Home() {
 
       <TypographyH2>DrawerDemo</TypographyH2>
       <DrawerDemo />
+
+      <TypographyH2>ProfileFormDemo</TypographyH2>
+      <ProfileFormDemo />
+
+      <TypographyH2>SkeletonDemo</TypographyH2>
+      <SkeletonDemo />
+
+      <TypographyH2>PaginationDemo</TypographyH2>
+      <PaginationDemo />
+
+      <TypographyH2>DataTableDemo</TypographyH2>
+      <DataTableDemo />
     </main>
   );
 }
